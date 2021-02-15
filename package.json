@@ -9,11 +9,7 @@
       "@babel/preset-react"
     ]
   },
-  "scripts": {
-    "start": "webpack-dev-server --open",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "create": "webpack"
-  },
+  
   "dependencies": {
     "babel-loader": "^8.2.2",
     "css-loader": "^5.0.2",
@@ -36,7 +32,9 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "webpack"
   },
   "keywords": [],
   "author": "",
